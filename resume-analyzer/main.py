@@ -1,7 +1,7 @@
-import streamlit as st  #type: ignore
+import streamlit as st  
 from pdf_processor import extract_text_from_upload
-from analyzer import analyze_resume    #type: ignore
-from ui import display_results   #type: ignore
+from analyzer import analyze_resume   
+from ui import display_results   
 
 def main():
     st.title("AI Resume Analyzer")
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
